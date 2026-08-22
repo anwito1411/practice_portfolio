@@ -1,0 +1,19 @@
+body {
+  background-color: #f5f7fa;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  margin: 0;
+  color: #2c3e50;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Replace your current .highlight in style.css with this */
+.highlight {
+    color: #0d6efd; /* Standard Bootstrap primary blue */
+    font-weight: 700;
+}
+
+.second-container {
+    text-align: justify;
+    line-height: 1.6;
+}

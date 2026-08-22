@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- Your custom CSS for the background gradient -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- min-vh-100 ensures it takes the full height, but allows scrolling if the text gets too long -->
+<body class="d-flex align-items-center justify-content-center min-vh-100 py-5">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                
+                <!-- The About Me Card -->
+                <div class="card shadow-lg border-0 p-4 p-md-5" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <!-- The Profile Picture -->
+                        <div class="text-center mt-2 mb-4">
+                            <img src="./assests/profile.jpg" alt="Profile Picture" class="rounded-circle shadow-sm" style="width: 150px; height: 150px; object-fit: cover; border: 4px solid white;">
+                        </div>
+                        <h2 class="fw-bold mb-4 text-body-emphasis border-bottom pb-3">About Me</h2>
+                        
+                        <!-- Name Section -->
+                        <div class="mb-4">
+                            <p class="text-muted text-uppercase fw-bold mb-1" style="font-size: 0.8rem; letter-spacing: 1px;">Name</p>
+                            <p class="fs-4 fw-medium text-body-emphasis mb-0">My Name Here</p>
+                        </div>
+                        
+                        <!-- Profession Section -->
+                        <div class="mb-4">
+                            <p class="text-muted text-uppercase fw-bold mb-1" style="font-size: 0.8rem; letter-spacing: 1px;">Profession</p>
+                            <!-- Using the primary color to make your role stand out -->
+                            <p class="fs-5 text-primary fw-medium mb-0">Front-End Developer</p>
+                        </div>
+                        
+                        <!-- Bio / ETC Section -->
+                        <div class="mb-5">
+                            <p class="text-muted text-uppercase fw-bold mb-2" style="font-size: 0.8rem; letter-spacing: 1px;">Background</p>
+                            <p class="text-secondary lh-lg mb-0" style="text-align: justify;">
+                                Replace this placeholder text with a short paragraph about yourself. This is where your "_e_t_c_" goes! Talk about your passion for web development, your journey so far, and what drives you to create amazing user experiences. Keep it to about 3-4 sentences.
+                            </p>
+                        </div>
+                        
+                        <!-- Back to Home Button -->
+                        <div class="text-center mt-2">
+                            <a href="./index.html" class="btn btn-outline-secondary rounded-pill px-4 fw-medium">
+                                ← Back to Portfolio
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
